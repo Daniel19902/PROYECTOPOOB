@@ -10,6 +10,7 @@ public class Ficha
     private Circle ficha;
     private int x;
     private int y;
+    private int danielLoChupa100000=44444444444444444444444444444444444444444444444444444444444444444444444444444444444444;
     public Ficha(int x, int y){
         this.x = x;
         this.y = y;
