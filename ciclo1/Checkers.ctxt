@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Checkers
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Checkers\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=width
+comment1.target=Checkers(int)
+comment2.params=
+comment2.target=void\ makeVisible()
+comment3.params=men
+comment3.target=void\ add(int[][])
+comment4.params=row\ column
+comment4.target=int\ getPositionRectangleX(int,\ int)
+comment5.params=row\ column
+comment5.target=int\ getPositionRectangleY(int,\ int)
+numComments=6
