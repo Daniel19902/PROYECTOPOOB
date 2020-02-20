@@ -83,7 +83,7 @@ public class Circle{
      */
     public void moveHorizontal(int distance){
         erase();
-        xPosition += distance;
+        xPosition = distance;
         draw();
     }
 
@@ -93,7 +93,7 @@ public class Circle{
      */
     public void moveVertical(int distance){
         erase();
-        yPosition += distance;
+        yPosition = distance;
         draw();
     }
 

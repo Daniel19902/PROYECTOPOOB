@@ -17,6 +17,7 @@ public class Rectangle{
     private int yPosition;
     private String color;
     private boolean isVisible;
+    private Ficha circleOnRectangle;
 
     /**
      * Create a new rectangle at default position with default color.
@@ -28,6 +29,8 @@ public class Rectangle{
         yPosition = 15;
         color = "magenta";
         isVisible = false;
+        circleOnRectangle = null;
+
     }
     public Rectangle(int height,int width,int xPosition,int yPosition,String color){
         this();
@@ -36,6 +39,17 @@ public class Rectangle{
         this.xPosition = xPosition;
         this.yPosition = yPosition;
         this.color = color;
+
+    }
+    public boolean esColocarFicha(){
+        if (circleOnRectangle == null) return true;
+        return false;
+    }
+    public void asignarFicha(Ficha ficha){
+        this.circleOnRectangle = ficha;
+    }
+    public Ficha getFicha(){
+        return circleOnRectangle;
     }
     public int getPosicionX(){
         return this.xPosition;
@@ -50,7 +64,7 @@ public class Rectangle{
         isVisible = true;
         draw();
     }
-    
+
     /**
      * Make this rectangle invisible. If it was already invisible, do nothing.
      */
